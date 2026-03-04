@@ -1,0 +1,3 @@
+# TODO: ADD DOCS!!!
+
+LIBTORCH_PATH="$HOME/libtorch"

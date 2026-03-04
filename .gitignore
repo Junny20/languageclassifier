@@ -1,6 +1,7 @@
 data/*.txt
 data/*.csv
 data/*.json
+scripts/config.sh
 models/*.onnx
 build/
 third_party/libtorch/
