@@ -1,5 +1,6 @@
 #pragma once
 
+#include <tokenizer.hpp>
 #include <torch/torch.h>
 #include <string>
 
