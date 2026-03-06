@@ -12,8 +12,11 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 
 add_executable(train 
     src/train.cpp
+    src/dataset.cpp
+    src/tokenizer.cpp
+    src/model.cpp
 )
 
 target_link_libraries(train ${TORCH_LIBRARIES})
 
-target_include_directories(train PRIVATE src/)
+target_include_directories(train PRIVATE src/ third_party/)

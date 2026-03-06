@@ -5,3 +5,4 @@ scripts/config.sh
 models/*.onnx
 build/
 third_party/libtorch/
+.vscode

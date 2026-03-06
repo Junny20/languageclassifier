@@ -49,7 +49,7 @@ filtered_testing_data = [(test_text, label_to_int_mapping[test_label]) for (test
 # create train-val split
 filtered_training_data, filtered_validation_data = train_test_split(filtered_training_data, test_size=0.1, random_state=42)
 
-# create csv files
+# create csv files - delimiters are handled automatically under the hood according to RFC 4180
 with open(os.path.join(data_dir, "training.csv"), "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(("text", "label"))
