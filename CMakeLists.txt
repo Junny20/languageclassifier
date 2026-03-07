@@ -19,4 +19,4 @@ add_executable(train
 
 target_link_libraries(train ${TORCH_LIBRARIES})
 
-target_include_directories(train PRIVATE src/ third_party/)
+target_include_directories(train PRIVATE src/ third_party/ /opt/homebrew/include)

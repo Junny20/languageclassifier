@@ -63,6 +63,6 @@ int main()
         std::cout << "Epoch: " << e + 1 << " | Loss: " << avg_loss << " | Validation Accuracy: " << accuracy << "%\n";
     }
 
-    torch::save(model, "model.pt");
-    std::cout << "Model saved to model.pt\n";    
+    torch::save(model, "../models/model.pt");
+    std::cout << "Model saved to models/model.pt\n";    
 }
